@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #009faa;
+    font-weight: bolder;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+/* .navBar::after{
+    opacity: 2%;
+} */
+.navBar a {
+    color: white;
+}
+
+#cont {
+    background-image: url('assets/bg-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 553.6px;
+}
+
+#cont p {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    padding-top: 200px;
+}
+
+#search {
+    padding-top: 25px;
+    padding-bottom: 30px;
+    background-color: #019faa;
+    width: 100%;
+}
+
+#search {
+    width: 100%;
+}
+
+#search svg {
+    margin-right: 5px;
+}
+
+/* #about{
+    margin-left: 100px;
+    margin-right: 100px;
+} */
+h1 {
+    color: #246064;
+    font-size: 72px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+h1::after {
+    /* margin-bottom: 20px;
+    text-decoration: underline; */
+    /* width: 100px; */
+    /* border: 1px solid black; */
+
+    content: "";
+    display: block;
+    width: 150px;
+    height: 4px;
+    background-color: #246064;
+    margin: 16px auto 0;
+    border-radius: 4px;
+
+}
+
+.teamComp {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#bg2 {
+    background-image: url("https://s3.amazonaws.com/simbla-static/2017/4/58cab9a5c6197bde667b6898/31393-4g3m72.jpg");
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.team img {
+    max-height: 100px;
+}
+
+.hotdeals {
+    margin-bottom: 50px;
+}
+
+.hotdeals img {
+    width: 100%;
+    
+}
+/* .hotdeals a{
+background-color: #009faa;
+    background-image: linear-gradient(transparent 100%,rgb(255 255 255 / 50%) 50%);
+} */
+.hotdeals img:hover {
+    transform: scale(0.95);
+    opacity: 0.8;
+    /* transition-delay: 100ms; */
+    transition-duration: 200ms;
+}
+.hotdeals button {
+    color: white;
+    padding: 10px 24px;
+    background-color: #256064;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services i {
+    color: #019faa;
+    font-size: 60px;
+}
+
+.allPics {
+    /* width: 100%; */
+
+}
+
+.picsLightbox{
+    padding: 0px;
+    background-color: #009faa;
+    background-image: linear-gradient(transparent 100%,rgb(255 255 255 / 50%) 50%);
+}
+
+.allPics img{
+    transform: scale(1.1);
+}
+
+.allPics img:hover {
+    transform: scale(1);
+    opacity: 0.6;
+    /* transition-delay: 100ms; */
+    transition-duration: 200ms;
+}
+
+.picsLightbox{
+    overflow: hidden;
+  height: 300px;
+  display: inline-block;
+}
+
+.picsLightbox img{
+    transition: transform 0.4s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.footer {
+    background-color: #019faa;
+    color: white;
+    text-align: center;
+    
+    padding-bottom: 10px;
+
+}
+
+.footer div {
+    margin-top: 50px;
+}
+
+.footer h5 {
+    margin-bottom: 20px;
+}
+
+.footer input {
+    margin: 25px 0px;
+}
+
+.footer button {
+    color: white;
+    padding: 10px 24px;
+    background-color: #256064;
+    font-weight: 500;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.footSub {
+    justify-content: center;
+}
+
+.footSub div {
+    padding: 10px;
+    margin: 5px;
+    background-color: #256064;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.footer i {
+    color: white;
+}
